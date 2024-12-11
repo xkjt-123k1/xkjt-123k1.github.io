@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>星空晶体 Blog</title><link>https://xkjt-123k1.github.io</link><description>我是星空晶体，一枚初中生，热爱编程、Minecraft~</description><copyright>星空晶体 Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://i.111666.best/image/KFEi98ln7qG4VkZvuz0f0t.jpg</url><title>avatar</title><link>https://xkjt-123k1.github.io</link></image><lastBuildDate>Sun, 08 Dec 2024 06:59:53 +0000</lastBuildDate><managingEditor>星空晶体 Blog</managingEditor><ttl>60</ttl><webMaster>星空晶体 Blog</webMaster><item><title>关于我本人</title><link>https://xkjt-123k1.github.io/post/guan-yu-wo-ben-ren.html</link><description>你好，我是星空晶体！欢迎来到我的 Blog！&#13;
-&#13;
-# 关于我自身&#13;
-本人是一位初中生，目前在上初二。</description><guid isPermaLink="true">https://xkjt-123k1.github.io/post/guan-yu-wo-ben-ren.html</guid><pubDate>Sun, 08 Dec 2024 06:59:32 +0000</pubDate></item><item><title>MYTEST</title><link>https://xkjt-123k1.github.io/post/MYTEST.html</link><description>测试测试测试&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>星空晶体 Blog</title><link>https://xkjt-123k1.github.io</link><description>我是星空晶体，一枚初中生，热爱编程、Minecraft~</description><copyright>星空晶体 Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://i.111666.best/image/KFEi98ln7qG4VkZvuz0f0t.jpg</url><title>avatar</title><link>https://xkjt-123k1.github.io</link></image><lastBuildDate>Wed, 11 Dec 2024 11:55:50 +0000</lastBuildDate><managingEditor>星空晶体 Blog</managingEditor><ttl>60</ttl><webMaster>星空晶体 Blog</webMaster><item><title>MYTEST</title><link>https://xkjt-123k1.github.io/post/MYTEST.html</link><description>测试测试测试&#13;
 &#13;
 ### 123&#13;
 &#13;
-_文本文本文本_。</description><guid isPermaLink="true">https://xkjt-123k1.github.io/post/MYTEST.html</guid><pubDate>Sun, 08 Dec 2024 05:54:34 +0000</pubDate></item></channel></rss>
+_文本文本文本_。</description><guid isPermaLink="true">https://xkjt-123k1.github.io/post/MYTEST.html</guid><pubDate>Sun, 08 Dec 2024 05:54:34 +0000</pubDate></item><item><title>关于我本人</title><link>https://xkjt-123k1.github.io/about.html</link><description>你好，我是星空晶体！欢迎来到我的 Blog！&#13;
+&#13;
+# 关于我自身&#13;
+本人是一位初中生，目前在上初二。</description><guid isPermaLink="true">https://xkjt-123k1.github.io/about.html</guid><pubDate>Sun, 08 Dec 2024 06:59:32 +0000</pubDate></item></channel></rss>
