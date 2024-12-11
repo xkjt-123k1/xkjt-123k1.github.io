@@ -5,5 +5,6 @@
     "GMEEK_VERSION":"last",
     "startSite":"12/08/2024",
     "onePageListNum":12,
-    "singlePage":["about"]
+    "singlePage":["about"],
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>"
 }
