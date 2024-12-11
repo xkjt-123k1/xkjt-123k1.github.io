@@ -4,5 +4,6 @@
     "avatarUrl":"https://i.111666.best/image/KFEi98ln7qG4VkZvuz0f0t.jpg",
     "GMEEK_VERSION":"last",
     "startSite":"12/08/2024",
-    "onePageListNum":12
+    "onePageListNum":12,
+    "singlePage":["about"]
 }
