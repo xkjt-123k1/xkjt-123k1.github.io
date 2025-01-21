@@ -1,1 +1,225 @@
-<p>There ie nothing for you.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星空晶体的个人网站</title>
+    <style>
+        /* 基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: padding-top 0.3s;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    overflow-x: auto; /* 允许横向滚动 */
+    white-space: nowrap; /* 防止换行 */
+    -webkit-overflow-scrolling: touch; /* 优化移动端滚动性能 */
+}
+
+header.collapsed {
+    padding: 0.5rem 0;
+    top: -40px; /* 调整为折叠后的高度 */
+}
+
+nav {
+    display: inline-block; /* 使导航栏内容在一行内显示 */
+    padding: 0 1rem; /* 添加左右内边距，防止内容紧贴边缘 */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex; /* 使导航项在一行内显示 */
+}
+
+.nav-links li {
+    margin: 0 0.5rem; /* 调整选项之间的间距 */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* 添加内边距，使选项看起来更美观 */
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555; /* 鼠标悬停时的背景颜色 */
+    border-radius: 4px; /* 添加圆角 */
+}
+
+/* 隐藏滚动条 */
+header::-webkit-scrollbar {
+    display: none; /* 隐藏Chrome和Safari的滚动条 */
+}
+
+header {
+    -ms-overflow-style: none; /* 隐藏IE和Edge的滚动条 */
+    scrollbar-width: none; /* 隐藏Firefox的滚动条 */
+}
+
+.section {
+    padding: 6rem 2rem 2rem; /* 调整顶部padding以适应固定导航栏 */
+    text-align: center;
+}
+
+.section h1, .section h2 {
+    margin-bottom: 1rem;
+}
+
+.portfolio-item {
+    margin: 1rem 0;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+a {
+  color: seagreen;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* 回到顶部按钮的样式 */
+#top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none; /* 默认隐藏 */
+    transition: opacity 0.3s;
+}
+
+#top-button:hover {
+    opacity: 0.8;
+}
+
+    </style>
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#portfolio">我的爱好</a></li>
+                <li><a href="#contact">联系方式</a></li>
+                <li><a href="#contact">其他</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h1>欢迎来到星空晶体的个人网站</h1>
+        <p>你好，我是星空晶体，欢迎来到我的个人网站！</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>关于我</h2>
+        <p>本人是一位初中生，学习等方面不是特别优秀，喜欢编程，爱好？？</p>
+        <p>本人是一只方块人，热爱 Minecraft ，游玩 Minecraft 不说 4 年也有 3 年。PVP、建造、红石科技也不如他人。。</p>
+        <p>本人会写一点点前端（到现在还不会一个框架）同时会点 Python 和一窍不通的 C++。</p>
+        <p>本人因 MC 常在 MC 论坛里，比如<a href="https://klpbbs.com/">苦力怕论坛</a> 和 <a href="https://minebbs.com/">MineBBS</a>。会点 Minecraft 基岩版附加包开发（但从来没有发布自己的大附加包）</p>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>我的爱好</h2>
+        <div class="portfolio-item">
+            <h3>Minecraft</h3>
+            <p>童年就看着津津有味，21 年正式开始玩 MC</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>三体</h3>
+            <p>越看越有味，中国科幻之巅名不虚传。</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>看关于编程的视频</h3>
+            <p>虽然但是，看过后真正做的只有 VSCode 和 Github 账号（都有 4 个账号了）其他查其他资料。</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>天文科普</h3>
+            <p><s>现在已经不看了，以前感到万千世界宏大宇宙可太有趣了（</s></p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>联系方式</h2>
+        <p>邮箱：xkjt-123k1@outlook.com</p>
+        <p>电话：##########</p>
+    </section>
+    <section id="contact" class="section">
+        <h2>其它</h2>
+        <p>本网站会不定时更新。若交流请勿向邮箱发布垃圾邮件。可以去苦力怕论坛、MineBBS 找我。</p>
+    </section>
+    <footer>
+        <font color=#00E3FC>前</font><font color=#00C7F9>途</font><font color=#00ABF6>似</font><font color=#008FF3>锦</font><font color=#0073F0>，</font><font color=#0057ED>来</font><font color=#003BEA>日</font><font color=#001FE7>方</font><font color=#0003E4>长</font>
+        <br><br>
+        <img src="https://badges.toozhao.com/badges/01JJ4ETXNMR9RMBBN4H4EZ86TX/blue.svg" />
+        <p>&copy; 2025 个人网站</p>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <div id="top-button">TOP</div>
+
+    <script>
+        // JavaScript 代码
+        window.addEventListener("scroll", () => {
+            const navbar = document.getElementById("navbar");
+            const topButton = document.getElementById("top-button");
+
+            // 导航栏折叠
+            if (window.scrollY > 50) {
+                navbar.classList.add("collapsed");
+                topButton.style.display = "block"; // 显示回到顶部按钮
+            } else {
+                navbar.classList.remove("collapsed");
+                topButton.style.display = "none"; // 隐藏回到顶部按钮
+            }
+        });
+
+        // 点击导航栏时展开
+        document.getElementById("navbar").addEventListener("click", () => {
+            const navbar = document.getElementById("navbar");
+            if (navbar.classList.contains("collapsed")) {
+                navbar.classList.remove("collapsed");
+            }
+        });
+
+        // 回到顶部按钮的功能
+        document.getElementById("top-button").addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // 平滑滚动
+            });
+        });
+    </script>
+</body>
+</html>
